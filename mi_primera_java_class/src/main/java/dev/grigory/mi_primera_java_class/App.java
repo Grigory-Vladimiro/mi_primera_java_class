@@ -1,17 +1,10 @@
 package dev.grigory.mi_primera_java_class;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
+import dev.grigory.Person;
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+public final class App {
+    public static void main (String[] args) {
+        Person person = new Person("Grigory", "Vladimiro", "123456789", 1986);
+        System.out.println(person);
     }
-}
+} 
